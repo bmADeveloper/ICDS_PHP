@@ -1,0 +1,132 @@
+ 
+
+	/* Resets */
+ul {
+    padding:0;
+    margin:0 0 20px 0;
+    list-style:none;
+}
+h1, h2 {
+    padding:0;
+    margin:0 0 20px 0;
+    font-weight:normal;
+}
+p {
+    padding:0;
+    margin:0 0 20px 0;
+}
+a:link, a:visited {
+    text-decoration:underline;
+    color:#333;
+
+}
+a:hover {
+    text-decoration:none;
+	color:#3544F7;
+}
+ul li {
+    padding:5px 0;
+}
+ul li input[type="text"], ul li input[type="password"] {
+    width:200px;
+}
+/* Headers */
+h1 {
+    font-size:1.8em;
+}
+h2 {
+    font-size:1.4em;
+}
+.logo {
+    font:2em Arial;
+    margin:0 0 10px 0;
+    padding:0;
+    width:150px;
+    color:#fff;
+}
+/* Containers #FCC898 ,#F9F9F9, #ADEFAF */
+body {
+    background:	#B0C4DE;
+	background: linear-gradient(180deg, #FCC898,#F9F9F9, #ADEFAF);
+    font-family:Arial;
+    font-size:0.8em;
+}
+
+/*180deg, #7AA9EF,#CBE3F8,#D0E7F9 , #F2FAFD    background-image: url(../pic/bg.png); background-size:1230px 600px;*/ 
+#container, footer {
+    background:#8FBC8F;
+	background: linear-gradient(180deg, #7AA9EF,#B9D9F9,#CBE3F8,#D0E7F9 , #F2FAFD);
+    width:1200px;
+	height:3px;  /* footer height manual*/
+    margin:0 auto;
+    padding:20px;
+}
+header {
+    width:940px;
+    padding:10px;
+    margin:0 auto 10px auto;
+}
+#container {
+    min-height:650px;  /*display container size manual*/
+    border-radius:8px 8px 0 0;
+}
+footer {
+    border-radius:0 0 5px 5px;
+}
+.widget {
+    margin-bottom:20px;
+}
+.widget h2 {
+    margin:0 0 10px 0;
+    padding:0 5px;
+    font-weight:normal;
+    border-bottom:1px solid #FFF;
+}
+.widget .inner {
+    margin:0 5px;
+}
+/* Navigation */
+nav {
+    float:right;
+	 
+}
+nav ul {
+	float:left;
+    margin:0px;
+	
+}
+/*home contact ect space*/
+nav ul li {
+    display:inline;
+    margin-right:15px;
+}
+nav ul li a {
+    text-decoration:none;
+}
+nav ul li.current {
+    font-weight:bold;
+}
+nav ul li a.last {
+    border-right:0;
+}
+/* Aside */
+aside {
+    width:260px;
+    float:right;
+    border-left:1px dashed #aaa;
+    padding-left:15px;
+}
+/* Login */
+#login li.link {
+    margin-top:5px;
+}
+/* Footer */
+footer {
+    border-top:1px dashed #ddd;
+    color:#999;
+}
+/* Misc */
+.clear {
+    clear:both;
+}/* CSS Document */
+
